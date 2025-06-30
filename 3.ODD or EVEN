@@ -1,0 +1,7 @@
+#Check ODD or EVEN
+n = int(input("Enter a number to find: "))
+if n % 2 == 0:
+  print(f"The number {n} is EVEN")
+else:
+  print(f"The number {n} is ODD")
+  
