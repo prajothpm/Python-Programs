@@ -1,0 +1,8 @@
+#Palindrome String
+text = input("Enter the word: ")
+rev = text[::-1]
+if rev == text:
+  print(f"The given word {text} is a palindrome")
+else:
+  print(f"The given word {text} is not a palindrome")
+  
